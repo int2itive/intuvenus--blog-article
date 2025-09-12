@@ -86,7 +86,7 @@ h4 {
     width: fit-content;
     height: 40px;
     display: flex;
-    background: var(--light-blue);
+    background: hsl(42, 62.5%, 55.9%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     align-items: center;
     padding-left: 16px;
