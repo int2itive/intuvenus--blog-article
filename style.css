@@ -44,7 +44,7 @@ h4 {
 .main__navigation {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: .35rem 0.75;
+  padding: .35rem 0.75rem;
   align-items: center;
 }
 
