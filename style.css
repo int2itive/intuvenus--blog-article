@@ -173,7 +173,7 @@ h4 {
   position: absolute;
   content: attr(data-caption-text);
   top: 72%;
-  left: 135px;
+  left: 120px;
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
