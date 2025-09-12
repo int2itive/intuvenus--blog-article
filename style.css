@@ -172,8 +172,8 @@ h4 {
 .main--story h4::after {
   position: absolute;
   content: attr(data-caption-text);
-  top: 85%;
-  left: 65px;
+  top: 75%;
+  left: 85px;
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
