@@ -51,6 +51,7 @@ h4 {
 .logo--text p {
   color: hsl(42, 62.5%, 55.9%);
   font-family: 'Jockey One';
+  font-weight: 700;
 }
 
 .logo--img__cont {
@@ -63,6 +64,7 @@ h4 {
 .logo--img__cont img {
   max-width: 100%;
   height: auto;
+  opacity: 0;
 }
 
 .binUUT {
