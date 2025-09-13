@@ -109,161 +109,58 @@ h4 {
     justify-content: center;
 }
 
-
-.opl--img-wrapper {
-/*   border: 1px solid firebrick; */
-  width: 100%;
-  position: relative;
-/*   max-width: 1000px; */
-  margin: 0 auto;
-  background: linear-gradient(to top, #000, transparent);
-  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 85%);
-  mask-image: linear-gradient(to top, transparent 5%, black 85%);
-}
-
-.opl--img-wrapper img {
-  position: relative;
-/*   inset: 0; */
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  display: block;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  grid-row: 1 / 2;
-  scale: 165%;
-/*   scale: 359%;
-  object-position: center -140px; */
-/*   filter: blur(12px);
-  scale: 2.2; */
-/*   z-index: 1; */
-}
-
-.opl--img-wrapper::after {
-  position: absolute;
-  inset: 0;
-/*   top: 0;
+/* The progress container (grey background) */
+.progress-container {
+  position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
-  height: 100%; */
-/*   background: linear-gradient(to top, #000, transparent);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 5%, black 95%);
-  mask-image: linear-gradient(to bottom, transparent 15%, black 85%); */
+  height: 2px;
+  background: transparent;
+  z-index: 100;
 }
 
-.me--site-title {
-  position: absolute;
-/*   text-align: center; */
-  font-size: clamp(2rem, 4vw + 0.3rem, 3.2rem);
-  z-index: 1;
-  padding: 2rem 0;
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 2px;
+  background: #fab800;
+  width: 0%;
 }
 
-.me--site-title h2 {
-  display: grid;
-  font-family: 'Jockey One';
-  line-height: 1;
-  color: #fafafa;
-  text-transform: uppercase;
-  margin-left: 1.5rem;
-  z-index: 10;
-}
-
-
-.main--story {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 0 1.5rem;
-  margin-top: -30px;
-}
-
-.main--story h2, 
-.main--story h4 {
-/*   text-align: center; */
-  position: relative;
-  margin-bottom: 4rem;
-}
-
-.main--story h4::after {
-  position: absolute;
-  content: attr(data-caption-text);
-  top: 74%;
-  left: 120px;
-  font-size: .515rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.main--story p {
-/*   width: 80ch; */
-  grid-column: 1;
-  font-family: 'Proxima Nova';
-  margin: 0 auto;
-  margin-bottom: 2rem;
-}
-
-form {
-  display: grid;
-  place-items: center;
-}
-
-.intv--test-btn {
-  min-width: 20%;
-  display: flex;
-  align-items: center;
-  padding: .25rem;
-  margin-bottom: 3rem;
-  justify-content: center;
-  border-radius: 50px;
-  border: 0;
-  outline: 1px solid transparent;
-}
-
-.intv--test-btn svg {
-  transition: .3s ease-in-out;
-}
-
-.intv--test-btn:hover {
-  cursor: pointer;
-}
-
-.intv--test-btn:hover svg {
-  transform: translate(4px, 0);
-}
-
-.profile-img--cont {
+.progress--bar {
+/*   content: ''; */
   position: fixed;
-  display: flex;
-  align-items: center;
+  height: 3px;
+  width: 0;
   top: 0;
-  right: 10%;
-  width: 250px;
-  height: 100%;
-  z-index: 2;
-  
-}
-
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 350px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
-}
-
-.image-container::after {
-  position: absolute;
-  content: '';
   inset: 0;
-  background: rgba(0 0 0 / .2)
+  background-color: var(--clr-intu-gold-1);
 }
 
-.image-container img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+header.-hidden {
+  transform: translateY(-100%);
 }
+
+.headerDown {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+}
+
+.intuvenus--header {
+/*   background-color: #00020e;
+  background-color: rgba(0, 2, 14, .55); */
+/*   border-bottom: .025rem solid #b9661f; */
+  -webkit-transition: -webkit-transform 500ms ease-out;
+  background: transparent;
+  backdrop-filter: blur(12px);
+  /* transition: -webkit-transform 500ms ease-out; */
+  /* transition: transform 500ms ease-out; */
+  transition: transform 500ms ease-out, -webkit-transform 500ms ease-out;
+}
+
 nav {
   position: relative;
   z-index: 10;
@@ -962,3 +859,4 @@ footer .dev--copyright {
   background-color: hsla(222, 23%, 20%, .9);
   z-index: -1;
 }
+
