@@ -31,10 +31,15 @@
 }
 
 body {
+/*   padding: 3.5rem 0; */
+  font-family: 'Jockey One';
+}
+
+body {
   background: hsl(256, 100%, 10%);
   background: #0C0C0C;
   color: #c0c0c0;
-  font-family: 'poppins';
+/*   font-family: 'poppins'; */
 }
 
 a {
