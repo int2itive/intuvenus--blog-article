@@ -15,12 +15,18 @@
   box-sizing: border-box;
 }
 
-
-
-
-
 :root {
   --light-blue: hsl(183, 100%, 81%);
+  --clr-intu-gold-1: hsl(42, 62.5%, 39.2%);
+  --clr-intu-gold-2: hsl(42, 62.5%, 55.9%);
+  --clr-intu-gold-3: hsl(42, 62.5%, 62.6%);
+  --clr-intu-green-1: hsl(42, 62.5%, 39.2%);
+  --clr-intu-main-1: hsl(42, 62.5%, 39.2%);
+  --clr-intu-accent-1: hsl(42, 62.5%, 55.9%);
+  --space: 1rem;
+  --space-md: calc(var(--space) * 2);
+  --content-max-width: 60ch;
+  --clr-text-light: hsl(0,0%,75.3%); /* Hex Value - #c0c0c0; */
 }
 
 body {
