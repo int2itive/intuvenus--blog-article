@@ -125,6 +125,7 @@ h4 {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   grid-row: 1 / 2;
+  scale: 255%;
 /*   scale: 359%;
   object-position: center -140px; */
 /*   filter: blur(12px);
