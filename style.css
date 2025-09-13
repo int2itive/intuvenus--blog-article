@@ -51,6 +51,7 @@ h4 {
 .logo--text p {
   color: hsl(42, 62.5%, 55.9%);
   font-family: 'Jockey One';
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
