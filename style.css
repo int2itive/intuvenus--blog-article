@@ -52,6 +52,7 @@ h4 {
   grid-template-columns: auto 1fr auto;
   padding: .35rem 0.75rem;
   align-items: center;
+  display: none;
 }
 
 .logo--text p {
