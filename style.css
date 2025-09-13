@@ -48,8 +48,9 @@ h4 {
   align-items: center;
 }
 
-.logo--text p
+.logo--text p {
   color: hsl(42, 62.5%, 55.9%);
+  font-family: 'Jockey One';
 }
 
 .logo--img__cont {
