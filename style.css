@@ -126,7 +126,7 @@ h4 {
   object-fit: cover;
   grid-row: 1 / 2;
   scale: 255%;
-  object-position: center -12px;
+  object-position: center 2px;
 /*   scale: 359%;
   object-position: center -140px; */
 /*   filter: blur(12px);
