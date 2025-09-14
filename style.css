@@ -296,7 +296,7 @@ background-clip: text;
   height: auto;
   display: block;
   aspect-ratio: 16 / 9;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   grid-row: 1 / 2;
 /*   scale: 359%;
