@@ -349,6 +349,7 @@ button:is(:focus-visible, :hover) {
   background: linear-gradient(to top, #000, transparent);
   -webkit-mask-image: linear-gradient(to top, transparent 5%, black 85%);
   mask-image: linear-gradient(to top, transparent 5%, black 85%);
+  overflow: hidden;
 }
 
 .opl--img-wrapper img {
