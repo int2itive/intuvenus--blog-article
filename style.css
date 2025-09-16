@@ -422,6 +422,7 @@ button:is(:focus-visible, :hover) {
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
+  opacity: 0;
   animation: titleFadeIn 300ms ease-in-out 2s forwards;
 }
 
