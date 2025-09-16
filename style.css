@@ -1,4 +1,4 @@
-@import url('https://api.fonts.coollabs.io/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/sofia-pro');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://api.fonts.coollabs.io/css2?family=Montserrat&display=swap');
@@ -423,7 +423,7 @@ button:is(:focus-visible, :hover) {
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0;
-  animation: titleFadeIn 1.2s ease-in-out 2.2s forwards;
+  animation: titleFadeIn 1.2s ease-in-out 2.8s forwards;
 }
 
 @media (min-width: 451px) {
