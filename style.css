@@ -422,6 +422,7 @@ button:is(:focus-visible, :hover) {
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
+  animation: titleFadeIn 300ms ease-in-out 2s forwards;
 }
 
 @media (min-width: 451px) {
@@ -931,3 +932,11 @@ footer .dev--copyright {
   z-index: -1;
 }
 
+@keyframes titleFadeIn {
+  from {  
+    opacity: 0;  
+  }  
+  to {  
+    pacity: 1;
+   }  
+}
