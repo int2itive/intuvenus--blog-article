@@ -423,7 +423,7 @@ button:is(:focus-visible, :hover) {
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0;
-  animation: titleFadeIn 1.2 ease-in-out 2.2s forwards;
+  animation: titleFadeIn 1.2s ease-in-out 2.2s forwards;
 }
 
 @media (min-width: 451px) {
