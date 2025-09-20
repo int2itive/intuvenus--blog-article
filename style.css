@@ -364,7 +364,7 @@ button:is(:focus-visible, :hover) {
   object-fit: cover;
   grid-row: 1 / 2;
   scale: 1.75;
-  transform: translate3d(0px, -12px, 0);
+  transform: translate3d(0, -4px, 0);
 /*   scale: 359%;
   object-position: center -140px; */
 /*   filter: blur(12px);
