@@ -553,7 +553,7 @@ main {
   color: hsl(0, 0%, 98%);
   font-size: .875rem;
   padding-inline-start: 1.15rem;
-  padding-inline-end 1rem;
+  padding-inline-end: 1rem;
   grid-column: full;
 }
 
