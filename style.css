@@ -37,10 +37,12 @@ body {
 }
 
 body {
-  background: hsl(256, 100%, 10%);
+  /* background: hsl(256, 100%, 10%);
   background: #0C0C0C;
-  color: #c0c0c0;
-/*   font-family: 'poppins'; */
+  color: #c0c0c0; */
+  font-family: 'Jockey One';
+  background-color: var(--bg, hsl(0, 0%, 5%)); /* background: hsl(0, 0%, 5%) */
+  transition: all .1s;
 }
 
 a {
