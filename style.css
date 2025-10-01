@@ -696,7 +696,7 @@ main {
 .full--gallery-main h1::after {
   position: absolute;
   content: attr(data-caption-text);
-  top: 48%;
+  top: 42%;
   left: 160px;
   font-size: .515rem;
   font-weight: 700;
