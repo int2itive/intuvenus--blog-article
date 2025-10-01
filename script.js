@@ -1,10 +1,49 @@
-const documentBody = document.querySelector('body');
-const scrollY = document.body.style.top;
+//const documentBody = document.querySelector('body');
+//const scrollY = document.body.style.top;
+let bodyStyles = window.getComputedStyle(document.body);
+const root = document.documentElement ;
+const themeBtn = document.querySelector('nav button');
+const mainContent = document.querySelector('.main--content'); console.log(mainContent);
+// const themeBtns = document.querySelectorAll('.theme > button');
+let fooBar = bodyStyles.getPropertyValue('--clr-intu-accent-1');
+let textLight = bodyStyles.getPropertyValue('--clr-text-light');
+
 const menuBtn = document.querySelector('.menu-btn');
 const banner = document.querySelector('.header');
 const menuSlider = document.querySelector('.mbl--list-items');
 // const para = document.querySelector('.header--content-grid p');
 const main = document.querySelector('.headerDown');
+
+
+function toggleDarkTheme(e) {
+  // body...
+  let header = root.querySelector('.main--story h4');//get
+  let subHeader = root.querySelector('.main--sub-hdr h3');//get
+
+  let paras = root.querySelectorAll('p');//get
+  let groups = document.querySelectorAll('nav button g');
+  root.classList.toggle('dark__on');
+
+  if (root.classList.contains('dark__on')) {
+    root.style.setProperty('--bg', 'black');
+    root.style.setProperty('--bg-text', 'white');
+    header.style.setProperty('color', fooBar);
+    subHeader.style.setProperty('color', textLight);
+    for (let para of paras) {
+      para.style.color = 'white';
+    }
+  } else {
+    root.style.setProperty('--bg', 'white');
+    root.style.setProperty('--bg-text', 'black');
+    header.style.setProperty('color', 'black');
+    subHeader.style.setProperty('color', 'black');
+    for (let para of paras) {
+      para.style.color = 'black';
+    }   
+  }
+  themeBtn.querySelector('g:nth-of-type(1)').style.display = root.classList.contains('dark__on') ? 'block' :'none';
+  themeBtn.querySelector('g:nth-of-type(2)').style.display = root.classList.contains('dark__on') ? 'none' : 'block';
+}
 
 let hiddenState = "-hidden", nav_dark = "intuvenus--header";
 
@@ -26,7 +65,7 @@ menuBtn.addEventListener('click', () => {
   if (!menuOpen) {
     menuBtn.classList.add('open');
     menuSlider.classList.toggle('showing');
-    gsap.from('.mbl--list-items .item a', { duration: 1, opacity: 0, delay: .75, stagger: 0.3 });
+    gsap.from('.mbl--list-items .item a', { duration: 1, opacity: 0, delay: 0.75, stagger: 0.3 });
     // document.body.style.position = 'fixed';
     // document.body.style.top = `-${window.scrollY}px`;
     menuOpen = true;
