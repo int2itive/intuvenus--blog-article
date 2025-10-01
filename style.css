@@ -18,7 +18,7 @@
 
 :root {
   --gap: 2rem;
-  --light-blue: hsl(183, 100%, 81%);
+  --light-blue: hsl(183, 100%, 81%);e
   --clr-intu-gold-1: hsl(42, 62.5%, 39.2%);
   --clr-intu-gold-2: hsl(42, 62.5%, 55.9%);
   --clr-intu-gold-3: hsl(42, 62.5%, 62.6%);
@@ -568,7 +568,7 @@ main {
   color: hsl(0,0%,45.3%);
   display: block;
   cursor: pointer;
-
+}
 
 .gallery {
   grid-column: full;
