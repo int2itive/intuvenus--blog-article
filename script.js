@@ -6,7 +6,7 @@ const themeBtn = document.querySelector('header nav button');
 const mainContent = document.querySelector('.main--content'); console.log(themeBtn);
 
 // const themeBtns = document.querySelectorAll('.theme > button');
-let fooBar = bodyStyles.getPropertyValue('--clr-intu-accent-1');
+let fooBar = bodyStyles.getPropertyValue('color');
 let textLight = bodyStyles.getPropertyValue('--clr-text-light');
 
 const menuBtn = document.querySelector('.menu-btn');
