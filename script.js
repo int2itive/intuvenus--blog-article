@@ -46,6 +46,9 @@ function toggleDarkTheme(e) {
   themeBtn.querySelector('g:nth-of-type(2)').style.display = root.classList.contains('dark__on') ? 'none' : 'block';
 }
 
+themeBtn.addEventListener('click', toggleDarkTheme);
+toggleDarkTheme();
+
 let hiddenState = "-hidden", nav_dark = "intuvenus--header";
 
 var threshold = 10,
