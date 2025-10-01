@@ -836,10 +836,12 @@ radial-gradient(at 71% 58%, hsla(41,62%,55%,1) 0px, transparent 50%); */
 footer .dev--copyright {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .25rem;
-  font-family: 'Sofia Pro';
-  font-size: .75rem;
-  color: #fafafa;
+  font-family: 'DM Sans', serif, 'SF Pro Text', 'SF Pro Icons', 'AOS Icons',
+      'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;  
+  font-size: .65rem;
+  color: hsl(0, 0%, 75%);
   padding: .25rem .6rem;
 }
 
