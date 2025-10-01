@@ -549,10 +549,26 @@ main {
 }
 
 .content p {
-  grid-column: full;
-  padding: 1.5rem;
-  font-family: 'Proxima Nova';
+  font-family: "DM Sans", serif, "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+  color: hsl(0, 0%, 98%);
+  font-size: .875rem;
 }
+
+.content p:nth-last-of-type(-n+1) {
+  position: relative;  
+}
+
+.content p:nth-last-of-type(-n+1)::before {
+  position: absolute;
+  content: attr(data-prompt);
+  font-weight: 700;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  color: hsl(0,0%,45.3%);
+  display: block;
+  cursor: pointer;
+
 
 .gallery {
   grid-column: full;
@@ -665,6 +681,16 @@ main {
   font-size: 1.4rem;
   font-weight: 300;
   text-transform: lowercase;
+}
+
+.full--gallery-main h1::before {
+  position: absolute;
+  content: '';
+  top: 3px;
+  left: 150px;
+  height: 80%;
+  width: 1px;
+  background-color: hsl(43.8 0% 75.3% / .3);
 }
 
 .full--gallery-main h1::after {
