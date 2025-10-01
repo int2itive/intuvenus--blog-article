@@ -784,7 +784,7 @@ radial-gradient(at 71% 58%, hsla(41,62%,55%,1) 0px, transparent 50%); */
   font-weight: 500;
   line-height: 1.1;
   color: hsl(43.8, 0%, 75.3%);
-  width: 66%;
+  width: 90%;
   max-width: 100%;
 /*   display: none; */
   margin-bottom: 1.3rem;
@@ -811,6 +811,10 @@ radial-gradient(at 71% 58%, hsla(41,62%,55%,1) 0px, transparent 50%); */
   text-decoration: none;
   color: hsl(43.8, 0%, 75.3%);
   transition: color 300ms ease-in-out;
+}
+
+.article--content ul li a {
+  font-size: 0.88rem;
 }
 
 .link--content ul li a:hover,
