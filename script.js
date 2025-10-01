@@ -18,7 +18,7 @@ const main = document.querySelector('.headerDown');
 
 function toggleDarkTheme(e) {
   // body...
-  let header = root.querySelector('.main--story h4');//get
+  let header = root.querySelector('.main--title');//get
   let subHeader = root.querySelector('.main--sub-hdr h3');//get
 
   let paras = root.querySelectorAll('p');//get
