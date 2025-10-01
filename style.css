@@ -17,6 +17,7 @@
 }
 
 :root {
+  --gap: 2rem;
   --light-blue: hsl(183, 100%, 81%);
   --clr-intu-gold-1: hsl(42, 62.5%, 39.2%);
   --clr-intu-gold-2: hsl(42, 62.5%, 55.9%);
@@ -489,7 +490,7 @@ button:is(:focus-visible, :hover) {
 .main--story h4 {
 /*   text-align: center; */
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .main--story h4::after {
