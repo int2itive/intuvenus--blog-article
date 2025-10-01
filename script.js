@@ -2,8 +2,9 @@
 //const scrollY = document.body.style.top;
 let bodyStyles = window.getComputedStyle(document.body);
 const root = document.documentElement;
-const themeBtn = document.querySelector('nav button');
-const mainContent = document.querySelector('.main--content'); console.log(mainContent);
+const themeBtn = document.querySelector('header nav button');
+const mainContent = document.querySelector('.main--content'); console.log(themeBtn);
+
 // const themeBtns = document.querySelectorAll('.theme > button');
 let fooBar = bodyStyles.getPropertyValue('--clr-intu-accent-1');
 let textLight = bodyStyles.getPropertyValue('--clr-text-light');
