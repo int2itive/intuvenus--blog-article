@@ -552,7 +552,8 @@ main {
   font-family: "DM Sans", serif, "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
   color: hsl(0, 0%, 98%);
   font-size: .875rem;
-  padding-inline: 1.15rem;
+  padding-inline-start: 1.15rem;
+  padding-inline-end: 1rem;
   grid-column: full;
 }
 
