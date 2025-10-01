@@ -567,6 +567,7 @@ main {
   font-weight: 700;
   top: -40px;
   left: var(--space-md);
+  left: 0;
   width: 100%;
   color: hsl(0,0%,45.3%);
   display: block;
