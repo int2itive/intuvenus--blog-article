@@ -1,7 +1,7 @@
 //const documentBody = document.querySelector('body');
 //const scrollY = document.body.style.top;
 let bodyStyles = window.getComputedStyle(document.body);
-const root = document.documentElement ;
+const root = document.documentElement;
 const themeBtn = document.querySelector('nav button');
 const mainContent = document.querySelector('.main--content'); console.log(mainContent);
 // const themeBtns = document.querySelectorAll('.theme > button');
