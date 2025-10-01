@@ -566,7 +566,7 @@ main {
   content: attr(data-prompt);
   font-weight: 700;
   top: -40px;
-  left: calc(var(--space-md) * 2);
+  left: calc(var(--space-md) - 4px);
   width: 100%;
   color: hsl(0,0%,45.3%);
   display: block;
