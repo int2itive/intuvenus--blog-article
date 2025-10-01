@@ -553,7 +553,7 @@ main {
   color: hsl(0, 0%, 98%);
   font-size: .875rem;
   padding-inline-start: 1.15rem;
-  padding-inline-end:. 9rem;
+  padding-inline-end .95em;
   grid-column: full;
 }
 
@@ -566,7 +566,7 @@ main {
   content: attr(data-prompt);
   font-weight: 700;
   top: -40px;
-  left: calc(var(--space-md) - 2px);
+  left: var(--space-md);
   width: 100%;
   color: hsl(0,0%,45.3%);
   display: block;
