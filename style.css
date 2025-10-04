@@ -350,8 +350,8 @@ button:is(:focus-visible, :hover) {
 /*   max-width: 1000px; */
   margin: 0 auto;
   background: linear-gradient(to top, #000, transparent);
-  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 85%);
-  mask-image: linear-gradient(to top, transparent 5%, black 85%);
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, hsl(0, 0%, 0%) 65%);
+  mask-image: linear-gradient(to top, transparent 5%, hsl(0, 0%, 0%) 65%);
   overflow: hidden;
 }
 
@@ -366,8 +366,8 @@ button:is(:focus-visible, :hover) {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   grid-row: 1 / 2;
-  scale: 1.55;
-  transform: translate3d(6px, 12px, 0);
+  scale: 1.95;
+  transform: translate3d(-10px, 0px, 0);
 /*   scale: 359%;
   object-position: center -140px; */
 /*   filter: blur(12px);
