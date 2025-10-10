@@ -418,7 +418,6 @@ button:is(:focus-visible, :hover) {
       minmax(0, 1fr) [margin-end] 
       calc(var(--gap) / 2) [full-end];
   margin-bottom: calc(var(--gap) * 1);
-  /*outline: 1px solid firebrick;*/
 }
 
 .main--content h2 {
@@ -428,7 +427,6 @@ button:is(:focus-visible, :hover) {
   /*color: hsl(42, 62.5%, 55.9%);*/
   /*color: hsl(0, 0%, 98%);*/
   color: #000;
-/*   font-size: 3.775rem; */
   margin-bottom: 2rem;
   margin-inline-end: var(--gap); 
 }
@@ -442,7 +440,6 @@ button:is(:focus-visible, :hover) {
   padding-top: .5em;
   text-align: left;
   letter-spacing: 0.025rem;
-  /*outline: 1px solid firebrick;*/
 }
 
 .main--sub-hdr h3 {
@@ -490,7 +487,6 @@ button:is(:focus-visible, :hover) {
 
 .main--story h2, 
 .main--story h4 {
-/*   text-align: center; */
   position: relative;
   margin-bottom: 6rem;
 }
@@ -499,7 +495,7 @@ button:is(:focus-visible, :hover) {
   position: absolute;
   content: attr(data-caption-text);
   top: 73.8%;
-  left: 120px;
+  left: 150px;
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
