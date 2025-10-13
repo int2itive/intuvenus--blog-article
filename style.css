@@ -495,11 +495,12 @@ button:is(:focus-visible, :hover) {
   position: absolute;
   content: attr(data-caption-text);
   top: 73.8%;
-  left: 150px;
+  left: 154px;
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0;
+  transform: translate3d(8px, 0, 0);
   animation: titleFadeIn 1.2s ease-in-out 2.8s forwards;
 }
 
@@ -1068,5 +1069,6 @@ footer .dev--copyright {
 @keyframes titleFadeIn {
   to {  
     opacity: 1;
+    transform: translate3d(0, 0, 0);
   }  
 }
