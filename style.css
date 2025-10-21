@@ -496,7 +496,7 @@ button:is(:focus-visible, :hover) {
 .main--story h4::after {
   position: absolute;
   content: attr(data-caption-text);
-  top: 74%;
+  top: 73%;
   left: 105px;
   left: 90px;
   font-size: .515rem;
