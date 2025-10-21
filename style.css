@@ -498,7 +498,7 @@ button:is(:focus-visible, :hover) {
   content: attr(data-caption-text);
   top: 74%;
   left: 105px;
-  left: 95px;
+  left: 90px;
   font-size: .515rem;
   font-weight: 700;
   text-transform: uppercase;
